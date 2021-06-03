@@ -1,0 +1,22 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint":"standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarteaga1/platziverse.git"
+  },
+  "author": "Juanc Arteaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcarteaga1/platziverse/issues"
+  },
+  "homepage": "https://github.com/jcarteaga1/platziverse#readme",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
