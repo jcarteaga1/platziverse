@@ -1,5 +1,5 @@
 # platziverse-db 
-## Usabe
+## Usage
 
 ``` js
 const setupDatabase = require('plazoverse-db')
