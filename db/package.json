@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "standard",
     "setup": "DEBUG=platziverse:* node setup.js",
-    "test": "DEBUG=platziverse:* ava --verbose"
+    "test": "DEBUG=platziverse:* nyc --reporter=lcov ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/jcarteaga1/platziverse#readme",
   "devDependencies": {
     "ava": "^3.15.0",
+    "nyc": "^15.1.0",
     "sqlite3": "^5.0.2",
     "standard": "^16.0.3"
   },
